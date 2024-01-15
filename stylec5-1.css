@@ -1,0 +1,108 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+body {
+    background: #eee;
+}
+
+body > div {
+    width: 1170px;
+    height: 980px;
+    margin: 0 auto;
+    position: relative;
+    background: white;
+}
+img {
+    display: block;
+}
+.sky {
+    position: absolute;
+}
+.sky h2 {
+    display: none;
+    margin: 0;
+    bottom: 170px;
+    padding: 0;
+}
+
+.sky > img {
+    border-bottom: white 8px solid;
+    padding-bottom: 22px;
+}
+.sky > img:hover {
+    border-bottom: chocolate 8px solid;
+    padding-bottom: 22px;
+}
+
+.title {
+    left: 20px;
+    bottom: 30px;
+}
+
+.title > h2 {
+    display: block;
+    position: absolute;
+    left: -20px;
+    bottom: 170px;
+}
+
+.one {
+    left: 210px;
+    bottom: 30px;
+}
+
+.one:hover > h2 {
+    display: block;
+    position: absolute;
+    left: -210px;
+    bottom: 170px;
+}
+
+.two {
+    left: 400px;
+    bottom: 30px;
+}
+
+.two:hover > h2 {
+    display: block;
+    position: absolute;
+    left: -400px;
+    bottom: 170px;
+}
+
+.three {
+    left: 590px;
+    bottom: 30px;
+}
+
+.three:hover > h2 {
+    display: block;
+    position: absolute;
+    left: -590px;
+    bottom: 170px;
+}
+.four {
+    left: 780px;
+    bottom: 30px;
+}
+
+.four:hover > h2 {
+    display: block;
+    position: absolute;
+    left: -780px;
+    bottom: 170px;
+}
+
+.five {
+    left: 970px;
+    bottom: 30px;
+}
+
+.five:hover > h2 {
+    display: block;
+    position: absolute;
+    left: -970px;
+    bottom: 170px;
+}
